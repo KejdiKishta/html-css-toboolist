@@ -30,7 +30,11 @@ img{
     background-color:rgb(237 242 247);
     width: 90%;
     margin: auto;
-    padding-bottom: 50px
+    margin-bottom: 5px;
+}
+
+.list-container{
+    padding-bottom: 50px;
 }
 
 /* nav */
