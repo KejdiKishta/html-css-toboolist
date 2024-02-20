@@ -23,19 +23,20 @@ img{
     background-color: white;
     width: 90%;
     margin: auto;
-    padding-top: 10px;
+    padding: 50px;
 }
 
 .blue-container{
     background-color:rgb(237 242 247);
-    width: 70%;
+    width: 90%;
     margin: auto;
+    /* padding: 20px; */
 }
 
 /* nav */
 nav{
     text-align: center;
-    margin: 20px 0 10px;
+    margin-bottom: 10px;
     padding: 20px;
 }
 
@@ -43,12 +44,12 @@ input, button{
     font-size: 20px;
     padding: 10px;
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid lightgray;
 }
 
 input{
-    width: 300px;
+    width: 50%;
 }
 
 button{
@@ -56,3 +57,53 @@ button{
     color: white;
 }
 
+/*main*/
+ul{
+    list-style-type: none;
+}
+.list-titles{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item{
+    font-size: 30px;
+    margin: 5px 30px;
+    padding: 15px;
+    background-color: white;
+}
+
+.done{
+    text-decoration: line-through;
+}
+li.list-items span{
+    border-radius: 20px;
+    padding: 10px; 
+    color: white;
+}
+.editorial{
+   background-color: rgb(9 169 237);
+}
+
+.goals{
+    background-color: rgb(171 93 230);
+}
+
+.recruiting{
+    background-color: rgb(44 198 171);
+}
+
+.mobile{
+    background-color: rgb(255 155 0);
+}
+
+.website{
+    background-color: rgb(236 74 157);
+}
+
+.sales{
+    background-color: rgb(163 209 22);
+}
