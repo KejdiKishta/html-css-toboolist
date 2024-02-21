@@ -12,6 +12,7 @@ body{
 /* header */
 .img-logo{
     text-align: center;
+    vertical-align: middle;
 }
 
 img{
@@ -88,6 +89,7 @@ ul{
     border-radius: 20px;
     padding: 10px; 
     color: white;
+    display: inline-block;
 }
 .editorial{
    background-color: rgb(9 169 237);
